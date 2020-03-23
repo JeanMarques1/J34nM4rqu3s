@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!--responsividade-->
+    <title>Tarefa Mercadou</title>
+    <link rel="stylesheet" href="estilo.css"> <!--"folha de estilo" Css-->
+</head>
+
+<body> <!-- corpo do site -->
+    <header>
+        <h1>May the force be with you!</h1> <!--Titulo principal-->
+    </header>
+    <section> <!--bloco de seção (box principal do site)-->
+        <div>
+            <h4>A Nave pode carregar até 100.000 Kg</h4>
+
+            <p>Digite seu peso:
+                <input type="number" name="pnum" id="pnum"> <!--entrada de dados-->
+                <input type="button" value="Adicionar" onclick="adicionar()"> <!--button adicionando dados (onclick adicionando o evento)-->
+                <br><br><select name="flista" id="plista" size="6"></select><!--seleção para exibir os dados na tela-->
+                <br><input type="button" value="Verificar" onclick="finalizar()"><!--soma final da entrada de dados-->
+            </p>
+           
+        </div>
+        <div id="res"> <!--exibe resultado final-->
+            <h4>Digite seu peso acima para verificar o total de carga da Millennium Falcon</h4>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; JeanMarques</p>
+    </footer>
+    <script src="script.js"></script> <!--Js-->
+</body>
+
+</html>

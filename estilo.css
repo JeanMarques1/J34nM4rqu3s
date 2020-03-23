@@ -1,0 +1,28 @@
+body { /*formatação do corpo do site*/
+    background: url('star.jpg') no-repeat;
+    font: normal 15pt Arial;
+    }
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {   /*formatação do bloco principal*/
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.39);
+}
+
+select#plista {  /*caixa de seleção*/
+    width: 150px;
+}
+
+footer {        /*formatação do rodapé*/
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
